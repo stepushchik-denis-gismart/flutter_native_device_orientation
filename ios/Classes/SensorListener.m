@@ -29,7 +29,7 @@
             }
             else{
                 // we are in portrait mode
-                if(data.gravity.y>=0){
+                if(data.gravity.y>=0.2){
                     orientation = PORTRAIT_DOWN;
                 }
                 else{
